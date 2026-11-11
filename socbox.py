@@ -871,7 +871,7 @@ def banner():
     text.append("made by pablocsl".center(width), style="dim cyan")
     console.print(Panel(text, border_style="cyan", padding=(0, 2), expand=False))
     priv = "admin/root" if is_admin() else "standard user"
-    console.print(f"[dim]Detected: {OS_NAME} {platform.release()} | {priv} | default paths adapted to this system[/]")
+    console.print(f"[dim]Detected: {OS_NAME} {platform.release()} | {priv}")
     if not is_admin():
         console.print("[dim]Tip: some tools (event logs, listening ports) need elevated privileges.[/]")
     console.print()
