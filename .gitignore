@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets (API keys)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# SOCBox generated files
+baseline.json
+*.socb
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
